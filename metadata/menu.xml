@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<wayfire>
+	<plugin name="menu">
+		<_short>Wayfire Menu</_short>
+		<category>Window Management</category>
+		<option name="command" type="string">
+			<_short>Command</_short>
+			<_long>Menu to use when client makes an XDG request. This typically happens when a Gtk application titlebar receives a click event.</_long>
+			<default>wf-menu</default>
+		</option>
+		<option name="app_id" type="string">
+			<_short>Application Identifier Match</_short>
+			<_long>Application ID for menu. This is needed to match the menu, primarily for placement.</_long>
+			<default>wf-menu</default>
+		</option>
+	</plugin>
+</wayfire>

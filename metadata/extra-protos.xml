@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<wayfire>
+	<plugin name="extra-protos">
+		<_short>Extra Protocols</_short>
+		<_long>Support for additional wayland protocols.</_long>
+		<category>Utility</category>
+		<group>
+			<_short>Protocols</_short>
+			<option name="enable_wayfire_desktop" type="bool">
+				<_short>Wayfire Desktop</_short>
+				<_long>Enable Wayfire Desktop Protocol</_long>
+				<default>true</default>
+			</option>
+		</group>
+	</plugin>
+</wayfire>
